@@ -1,5 +1,9 @@
 public class Student {
-    public static void main(String[] args) {
+    public Student(){
         System.out.println("Creating student Object");
+    }
+
+    public void syHello(){
+        System.out.println("Inside Student class");
     }
 }

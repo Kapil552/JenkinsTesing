@@ -7,5 +7,8 @@ class Main{
         System.out.println("output from java program2");
         System.out.println("added one more line");
         System.out.println(new Date());
+
+        Student student=new Student();
+        student.syHello();
     }
 }
